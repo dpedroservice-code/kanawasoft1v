@@ -1,0 +1,83 @@
+{
+  "name": "Kanawa Soft ERP",
+  "short_name": "Kanawa ERP",
+  "description": "Sistema completo de gestão empresarial",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1a3a5c",
+  "theme_color": "#1a3a5c",
+  "orientation": "portrait",
+  "categories": ["business", "productivity", "finance"],
+  "lang": "pt-AO",
+  "dir": "ltr",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "https://i.ibb.co/CpKynFs5/logo.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://i.ibb.co/CpKynFs5/logo.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "https://i.ibb.co/CpKynFs5/logo.jpg",
+      "sizes": "1280x720",
+      "type": "image/jpeg",
+      "label": "Tela principal do Kanawa Soft ERP"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Dashboard",
+      "short_name": "Dashboard",
+      "description": "Acessar o dashboard principal",
+      "url": "/?module=dashboard",
+      "icons": [
+        {
+          "src": "https://i.ibb.co/CpKynFs5/logo.jpg",
+          "sizes": "96x96",
+          "type": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "name": "PDV",
+      "short_name": "PDV",
+      "description": "Abrir ponto de venda",
+      "url": "/?module=pdv",
+      "icons": [
+        {
+          "src": "https://i.ibb.co/CpKynFs5/logo.jpg",
+          "sizes": "96x96",
+          "type": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "name": "Vendas",
+      "short_name": "Vendas",
+      "description": "Ver lista de vendas",
+      "url": "/?module=vendas",
+      "icons": [
+        {
+          "src": "https://i.ibb.co/CpKynFs5/logo.jpg",
+          "sizes": "96x96",
+          "type": "image/jpeg"
+        }
+      ]
+    }
+  ],
+  "prefer_related_applications": false,
+  "related_applications": [],
+  "display_override": ["standalone", "browser"],
+  "launch_handler": {
+    "client_mode": "auto"
+  }
+}
